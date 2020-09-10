@@ -11,14 +11,14 @@ wn = turtle.Screen()
 wn.title("snake game by jeevan")
 wn.bgcolor("black")
 wn.setup(width=600, height=600)
-wn.tracer(0)
+wn.tracer(0) 
 
 # snake
 head = turtle.Turtle()
 head.speed(0)
 head.shape("square")
 head.color("blue")
-head.penup()
+head.penup() #animation draw =none
 head.goto(0, 0)
 head.direction = "stop"
 
@@ -27,7 +27,7 @@ food = turtle.Turtle()
 food.speed(0)
 food.shape("circle")
 food.color("red")
-food.penup()
+food.penup() #animation draw =none
 food.goto(0, 100)
 
 segments=[]
